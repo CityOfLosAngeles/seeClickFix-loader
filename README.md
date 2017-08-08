@@ -2,8 +2,10 @@
 Automate the reading of SeeClickFix Requests into formats that allow staff to add to the myLA 311 CRM 
 
 
-##Before running the program:
-To programmatically access your spreadsheet, you’ll need to create a service account and OAuth2 credentials from the Google API Console.* 
+## Before running the program:
+To programmatically access your spreadsheet, you’ll need to create a service account and OAuth2 credentials from the Google API Console.
+
+
 1.	Open a google spreadsheet in your google drive. Name it what you want, but remember the name. You will use it later.
 2.	Go to the Google APIs Console
 3.	Create a new project.
@@ -16,9 +18,9 @@ To programmatically access your spreadsheet, you’ll need to create a service a
 (See https://www.twilio.com/blog/2017/02/an-easy-way-to-read-and-write-to-a-google-spreadsheet-in-python.html for more details)
 
 
-##Running the program:
-From terminal, change director to the location of SCF.py
-Run: SCF.py (year of the records you want) (“Name of the spreadsheet inside quotes”)
+## Running the program:
+From terminal, change director to the location of `SCF.py`
+Run: `SCF.py (year of the records you want) (“Name of the spreadsheet inside quotes”)`
 The spreadsheet will start updating
 
 Once spreadsheet is finished updating, you can sort the sheet according to the field of your choosing. In the spreadsheet, click on the column you want to sort by. On the menu, click Data  Sort Range. Check the “Data has header row” checkbox, then choose the radio button of whether you want to sort in order, or reverse order. Finally, click the blue sort button.
